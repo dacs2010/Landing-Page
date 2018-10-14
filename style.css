@@ -1,0 +1,129 @@
+/* @@media screen */
+@media screen and (min-width: px){
+
+}
+
+/* create and size the background image */
+.frame {
+  z-index: 1;
+  height: 400px;
+  width: auto;
+}
+
+/* adjust the font and position */
+.content {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  z-index: 2;
+  text-align: center;
+  transform: translate(0px, 175px);
+  align-content: center;
+  vertical-align: baseline;
+}
+
+/* adjust font and position of sub-content */
+.sub-content {
+  font-family: 'EB Garamond', serif;
+  font-size: 18;
+  z-index: 2;
+  text-align: center;
+  transform: translate(0px, 200px);
+}
+
+/* the color and position for the nav-bar */
+#header {
+  z-index: 3;
+  background-color: lightgrey;
+  margin: -60px 0px 0px 0px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* the image in the nav-bar */
+#header-img {
+  zoom: 10%;
+  margin: 0px 0px 0px 25px;
+}
+
+/* the only way i could figure to align items in nav-bar */
+#nav-bar {
+  display: flex;
+}
+
+/* adjust the position of each frame via grid */
+#body-container {
+  margin: 60px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 2px;
+}
+
+/* email input and submit button */
+#form {
+  margin:0 0 0 0;
+  padding: 0px;
+  background-color: black;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* #video {
+  height: auto;
+  width: auto;
+  grid-column: 1;
+  grid-row: 1;
+} */
+
+/* the frames and their grid positions */
+#frame-one {
+  background-image: url('https://www.metalsupermarkets.com/wp-content/uploads/2017/08/Rust.png');
+  background-repeat: no-repeat;
+  background-position: 25% 7%;
+  background-size: 131%;
+  color: white;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#frame-two {
+  background-image: url('https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fimg1.coastalliving.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1475798793%2Fhurricane-elena-space-scf4320-006.jpg%3Fitok%3D9iPYan3S&w=700&q=85');
+  background-repeat: no-repeat;
+  background-position: 97% 74%;;
+  background-size: 130%;
+  color: white;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#frame-three {
+  background-image: url('http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/57/97/p0579798.jpg');
+  background-repeat: no-repeat;
+  background-position: 25% 7%;
+  background-size: 131%;
+  color: white;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#frame-four {
+  background-image: url('https://cdn1.img.sputniknews.com/images/101744/28/1017442872.jpg');
+  background-repeat: no-repeat;
+  background-position: 25% 7%;
+  background-size: 131%;
+  color: black;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#frame-five  {
+  background-image: url('https://static1.visitestonia.com/images/2890339/Estonian_forest_reasons_to_visit_Sven_Zacek.jpg');
+  background-repeat: no-repeat;
+  background-position: 25% 7%;
+  background-size: 131%;
+  color: white;
+  grid-column: 2;
+  grid-row: 3;
+}
